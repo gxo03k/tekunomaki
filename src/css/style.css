@@ -1,0 +1,115 @@
+@charset"utf-8";
+
+body{margin:0;
+	font-family:‘ヒラギノ角ゴPro W6’ ,’ Hiragino Kaku Gothic Pro’ ,メイリオ,Meiryo,sans-serif;
+	}
+
+.box1,.box2,.box3,.A,.box4,.boxA,.box7 {width:1200;
+										margin-left:auto;
+										margin-right:auto}
+
+.boxA:after {content: "";
+			display: block;
+			clear: both}
+
+.box5		{float: left;
+			width: 50%
+			}
+
+.box6		{float: left;
+			width: 50%}
+
+
+.A:after{content: "";
+		display: block;
+		clear: both}
+
+.a{float: left;
+			width: 33.3333%}
+
+.b{float: left;
+			width: 33.3333%}
+
+.c{float: left;
+			width: 33.3333%}
+
+.B:after {content: "";
+			display: block;
+			clear: both}
+
+.b1		{float: left;
+			width: 50%}
+
+.b2		{float: left;
+			width: 50%}
+
+.C:after {content: "";
+			display: block;
+			clear: both}
+
+.b3 	{float: left;
+			width: 50%}
+
+.b4		{float: left;
+			width: 50%}
+
+
+.D:after {content: "";
+			display: block;
+			clear: both}
+
+.b5 	{float: left;
+			width: 50%}
+
+.b6		{float: left;
+			width: 50%}
+
+.E:after {content: "";
+			display: block;
+			clear: both}
+
+.D:after {content: "";
+			display: block;
+			clear: both}
+
+
+.menu:after{content: "";
+		display: block;
+		clear: both}
+
+.home	{float: left;
+			width: 50%}
+
+.about 	{float: left;
+			width: 50%}
+
+.event 	{float: left;
+			width: 50%}
+
+.blog 	{float: left;
+			width: 50%}
+
+.d 	{float: left;
+			width: 100%}
+
+
+
+/*
+ ウィンドウ幅が767px以上の場合に適用するCSS
+@media screen and ( min-width:767px )
+{
+	p
+	{
+		color: #00f ;
+	}
+}
+
+ ウィンドウ幅が0〜767pxの場合に適用するCSS
+@media screen and ( max-width:766px )
+{
+	p
+	{
+		color: #f00 ;
+	}
+}*/
+
